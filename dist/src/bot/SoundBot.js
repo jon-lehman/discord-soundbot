@@ -38,7 +38,7 @@ class SoundBot extends discord_js_1.Client {
         this.addEventListeners();
     }
     start() {
-        this.login(this.config.token);
+        this.login(process.env.TOKEN);
     }
     registerAdditionalCommands(commands) {
         this.commands.registerCommands(commands);

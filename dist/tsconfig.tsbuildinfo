@@ -627,7 +627,7 @@
         "affectsGlobalScope": false
       },
       "../src/bot/soundbot.ts": {
-        "version": "86ed9e5df97f60ba32a5fbc371dfcda5df951efcb2283597d2ab11209744653b",
+        "version": "b5fef4435155625dfd686b3839e7f9ba2bbc98d97b69dafbdecd11c5e9fa36fd",
         "signature": "41921abe79a0c2d29795673963642f2caa4935582cd7692b44fc495b654cb41d",
         "affectsGlobalScope": false
       },
