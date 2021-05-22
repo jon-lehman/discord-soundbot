@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.UnignoreCommand = exports.LanguageCommand = exports.IgnoreCommand = exports.ConfigCommand = exports.AvatarCommand = void 0;
+var AvatarCommand_1 = require("./AvatarCommand");
+Object.defineProperty(exports, "AvatarCommand", { enumerable: true, get: function () { return AvatarCommand_1.AvatarCommand; } });
+var ConfigCommand_1 = require("./ConfigCommand");
+Object.defineProperty(exports, "ConfigCommand", { enumerable: true, get: function () { return ConfigCommand_1.ConfigCommand; } });
+var IgnoreCommand_1 = require("./IgnoreCommand");
+Object.defineProperty(exports, "IgnoreCommand", { enumerable: true, get: function () { return IgnoreCommand_1.IgnoreCommand; } });
+var LanguageCommand_1 = require("./LanguageCommand");
+Object.defineProperty(exports, "LanguageCommand", { enumerable: true, get: function () { return LanguageCommand_1.LanguageCommand; } });
+var UnignoreCommand_1 = require("./UnignoreCommand");
+Object.defineProperty(exports, "UnignoreCommand", { enumerable: true, get: function () { return UnignoreCommand_1.UnignoreCommand; } });
