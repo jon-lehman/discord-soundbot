@@ -11,7 +11,7 @@ const PROJECT_ID = '392681';
 
 // For request options see https://poeditor.com/docs/api#projects
 const requestOptions = {
-  api_token: config.api_token,
+  api_token: process.env.TOKEN,
   filters: 'translated',
   id: PROJECT_ID,
   order: 'terms',

@@ -35,7 +35,7 @@ export default class SoundBot extends Client {
   }
 
   public start() {
-    this.login(this.config.token);
+    this.login(process.env.TOKEN);
   }
 
   public registerAdditionalCommands(commands: Command[]) {
